@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Welcome to my Portfolio. My name is Victor Alvarez and here you can find all the information about my skills, interests, education, work experience, projects and hobbies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vic3dDev/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "unity",
+    "unreal",
+    "three.js"
+  ],
+  "author": "Victor Alvarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vic3dDev/portfolio/issues"
+  },
+  "homepage": "https://github.com/Vic3dDev/portfolio#readme"
+}
