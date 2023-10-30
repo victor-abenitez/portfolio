@@ -1,0 +1,20 @@
+.background{
+    z-index: 996;
+    background-color: blue;
+    width: 100%;
+    height: 50em;
+
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    background-color: red;
+    z-index: 999;
+    width: 20rem;
+    height: 50rem;
+}
+.right{
+    background-color: green;
+    width: 80rem;
+    height: 50rem;
+}
