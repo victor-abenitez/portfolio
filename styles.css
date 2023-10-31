@@ -33,13 +33,17 @@ html, body {
     justify-content: flex-start;
     align-items: center;
 }
-.hello{
+.hellocontainer{
     width: 90%;
     height: 20vh;
     margin-top: 10vh;
-    font-family: 'Montserrat';
+    
     font-size: 2vw;
     font-weight: 500;
+}
+.textfont{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
 }
 .bold-text {
     font-weight: 600;
@@ -53,11 +57,12 @@ html, body {
     align-items: center;
 }
 
+
 @media (orientation: landscape) {
     .logo{
         width: 2rem;
     }
-    .picture{
+    .container{
         width: 50vw;
         height: 20vh;
         display: flex;
@@ -65,11 +70,17 @@ html, body {
         justify-content: flex-end;
         margin-top: 3rem;
     }
+    .text{
+        
+        max-height: 25vh;
+        overflow: hidden;        
+    }
     .mypicture{
         width: 10rem;
         height: 10rem;
     }
 }
+
 @media (orientation: portrait) {
     
     .left{
@@ -93,15 +104,15 @@ html, body {
         flex-direction: column;
         justify-content: flex-end;
     }
-    .hellotext{
-        font-size: 1.5rem;
+    .titletext{
         max-height: 25vh;
+        background-color: yellowgreen;
         overflow: hidden;
     }
     .logo{
         width: 2rem;
     }
-    .picture{
+    .container{
         width: 50vw;
         height: 10vh;
         display: flex;
