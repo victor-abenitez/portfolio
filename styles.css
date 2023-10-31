@@ -1,8 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
 .background{
     z-index: 996;
-    background-color: blue;
-    width: 100%;
-    height: 50em;
+    background-color: gray;
+    position: relative;
+    
+    height: 100vh;
 
     display: flex;
     flex-direction: row;
@@ -10,11 +16,11 @@
 .left{
     background-color: red;
     z-index: 999;
-    width: 20rem;
-    height: 50rem;
+    width: 20%;
+    height: 100vh;
 }
 .right{
     background-color: green;
-    width: 80rem;
-    height: 50rem;
+    width: 80%;
+    height: 100vh;
 }
