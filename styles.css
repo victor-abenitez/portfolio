@@ -14,7 +14,7 @@ html, body {
     flex-direction: row;
 }
 .left{
-    background-color: red;
+    background-color: white;
     z-index: 999;
     width: 25%;
     height: 100vh;
@@ -24,12 +24,11 @@ html, body {
     align-items: center;
 }
 .right{
-    background-color: green;
+    background-color: gainsboro;
     width: 80%;
     height: 100vh;
 }
 .hello{
-    background-color: blueviolet;
     width: 90%;
     height: 20vh;
     margin-top: 10vh;
@@ -39,4 +38,16 @@ html, body {
 }
 .bold-text {
     font-weight: 600;
+    color: rgb(73, 153, 218);
+}
+.contact{
+    background-color: aqua;
+    width: 90%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 10%;
 }
