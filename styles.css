@@ -27,6 +27,11 @@ html, body {
     background-color: gainsboro;
     width: 80%;
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 .hello{
     width: 90%;
@@ -51,6 +56,18 @@ html, body {
 @media (orientation: landscape) {
     .logo{
         width: 2rem;
+    }
+    .picture{
+        width: 50vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: 3rem;
+    }
+    .mypicture{
+        width: 10rem;
+        height: 10rem;
     }
 }
 @media (orientation: portrait) {
@@ -77,12 +94,23 @@ html, body {
         justify-content: flex-end;
     }
     .hellotext{
-        background-color: chartreuse;
         font-size: 1.5rem;
         max-height: 25vh;
         overflow: hidden;
     }
     .logo{
         width: 2rem;
+    }
+    .picture{
+        width: 50vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: 2rem;
+    }
+    .mypicture{
+        width: 6rem;
+        height: 6rem;
     }
 }
