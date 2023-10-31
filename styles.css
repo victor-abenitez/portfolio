@@ -45,6 +45,12 @@ html, body {
     font-family: 'Montserrat';
     font-size: 1.5rem;
 }
+.titletext{
+    max-height: 25vh;
+    background-color: yellowgreen;
+    text-decoration: underline;
+    overflow: hidden;
+}
 .bold-text {
     font-weight: 600;
     color: rgb(73, 153, 218);
@@ -58,6 +64,7 @@ html, body {
 }
 
 
+
 @media (orientation: landscape) {
     .logo{
         width: 2rem;
@@ -65,15 +72,33 @@ html, body {
     .container{
         width: 50vw;
         height: 20vh;
+
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
-        margin-top: 3rem;
-    }
-    .text{
         
-        max-height: 25vh;
-        overflow: hidden;        
+        margin-top: 3rem;
+        
+    }
+    .victorcontainer{
+        flex-direction: column;
+        background-color: aqua;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        background-color: #fff;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+    .picturecontainer{
+        justify-content: flex-end;
+    }
+    
+    .victortitle{
+        width: 50vw;
+        height: 100vh;
+        height: 50%;
+        font-size: 1.85rem;
+    }
+    .description{
+        font-size: 1.8vh;
     }
     .mypicture{
         width: 10rem;
@@ -105,9 +130,8 @@ html, body {
         justify-content: flex-end;
     }
     .titletext{
-        max-height: 25vh;
-        background-color: yellowgreen;
-        overflow: hidden;
+        font-size: 1.75vh;
+        margin-top: 5vh;
     }
     .logo{
         width: 2rem;
@@ -115,13 +139,38 @@ html, body {
     .container{
         width: 50vw;
         height: 10vh;
+        
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        
         margin-top: 2rem;
+    }
+    .picturecontainer{
+        justify-content: flex-end;
     }
     .mypicture{
         width: 6rem;
         height: 6rem;
     }
+    .victorcontainer{
+        height: 20vh !important;
+        flex-direction: column;
+        background-color: aqua;
+        border-radius: 0.5rem;
+        padding: 0.75rem;
+        background-color: #fff;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+    .victortitle{
+        width: 50vw;
+        background-color: aqua;
+        height: 5vh;
+        font-size: 1.5rem;
+    }
+    .description{
+        height: 18vh;
+        font-size: 1.5vh;
+        background-color: blue !important;
+    }
+    
 }
