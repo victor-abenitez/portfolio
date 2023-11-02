@@ -159,7 +159,7 @@ html, body {
         width: 30vw;
         margin-top: 1rem;
         font-size: 1.8vh;
-        line-height: 2;
+        
     }
 
     .projectimage{
@@ -213,7 +213,7 @@ html, body {
         
         display: flex;
         flex-direction: row;
-        
+      
         margin-top: 2rem;
     }
     .picturecontainer{
@@ -238,14 +238,24 @@ html, body {
     }
     .containertitle{
         width: 50vw;
-        height: 5vh;
+        display: inline-block;
         font-size: 1.5rem;
+        color: #fff;
+        padding-left: 0.75rem;
+        background: linear-gradient(90deg, rgb(73, 153, 218) 20%, rgb(255, 255, 255) 100%)
+    }
+    .ct1{
+        color: black;
+        background:rgb(255, 255, 255) !important;
+        padding-left: 0rem !important;
     }
     .description{
         height: 18vh;
+        margin-top: 1rem;
         font-size: 1.5vh;
     }
     .skillcontainer{
+        width: 50vw;
         background-color: white;
         display: inline-block !important;
         border-radius: 0.5rem;
@@ -275,6 +285,8 @@ html, body {
         display: inline-block;
         width: 50vw;
         font-size: 0.85rem;
+        margin-top: 1rem;
+        padding-left: 0.15rem;
     }
     .projectimage{
         width: 2rem;
