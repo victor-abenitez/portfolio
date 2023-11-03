@@ -19,7 +19,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 .right{
     background-color: gainsboro;
@@ -97,7 +97,7 @@ button img {
     }
     .scroll{
         width: 75vw;
-        margin-top: 7.5vh;
+        margin-top: 2.5vh;
         height: 42.5vw;
         overflow: auto;
         padding-bottom: 15vh;
@@ -117,7 +117,22 @@ button img {
         
     }
     .header{
+        width: 75vw;
+        display: flex;
+        flex-direction: row;
+        height: 5hv !important;
         justify-content: center;
+        padding-top: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .languagecontainer{
+        width: 20vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        padding-bottom: 1vh;
     }
     .picturecontainer{
         justify-content: flex-end;
@@ -133,12 +148,11 @@ button img {
     .victorcontainer{
         width: 50vw;
         margin-top: 2rem;
-
+        display: flex;
         flex-direction: column;
-        background-color: aqua;
+        background-color: #fff;
         border-radius: 0.5rem;
         padding: 2rem;
-        background-color: #fff;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
         transition: transform 0.3s;
     }
@@ -162,6 +176,7 @@ button img {
     .description{
         display: inline-block;
         margin-bottom: 1rem;
+        padding-top: 1rem;
         font-size: 2vh;
     }
     .skillsgraphics{
@@ -271,6 +286,13 @@ button img {
         margin-top: 0vh;
         font-size: 1rem;
         justify-content: center;
+    }
+    .languagecontainer{
+        width: 50vw;
+        height: 10vh;
+        background-color: red;
+        display: flex;
+        flex-direction: row;
     }
     .picturecontainer{
         justify-content: flex-end;
