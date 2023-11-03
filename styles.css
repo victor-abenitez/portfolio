@@ -116,6 +116,9 @@ button img {
         margin-top: 3rem;
         
     }
+    .header{
+        justify-content: center;
+    }
     .picturecontainer{
         justify-content: flex-end;
         transition: transform 0.3s;
@@ -263,6 +266,11 @@ button img {
         flex-direction: row;
       
         margin-top: 2rem;
+    }
+    .header{
+        margin-top: 0vh;
+        font-size: 1rem;
+        justify-content: center;
     }
     .picturecontainer{
         justify-content: flex-end;
