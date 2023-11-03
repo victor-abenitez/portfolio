@@ -87,6 +87,7 @@ button img {
 }
 
 @media (orientation: landscape) {
+    
     .logo{
         width: 2rem;
     }
