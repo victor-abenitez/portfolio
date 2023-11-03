@@ -65,6 +65,23 @@ html, body {
     justify-content: space-around;
     align-items: center;
 }
+.lineheight{
+    line-height: 2vh;
+}
+.button-link{
+    text-decoration: none;
+}
+button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button img {
+    width: 2rem; /* Adjust the image size as needed */
+}
 
 @media (orientation: landscape) {
     .logo{
@@ -103,6 +120,9 @@ html, body {
         height: 10rem;
     }
     .victorcontainer{
+        width: 50vw;
+        margin-top: 2rem;
+
         flex-direction: column;
         background-color: aqua;
         border-radius: 0.5rem;
@@ -125,8 +145,9 @@ html, body {
         padding-left: 0rem !important;
     }
     .description{
-        margin-top: 1rem;
-        font-size: 1.8vh;
+        display: inline-block;
+        margin-bottom: 1rem;
+        font-size: 2vh;
     }
     .skillsgraphics{
         width: 20vw;
@@ -138,8 +159,9 @@ html, body {
         justify-content: space-evenly;
         gap: 2vw;
     }
+    
     .skillcontainer{
-        
+        width: 50vw;
         height: 160vh !important;
         display: flex;
         flex-direction: column;
@@ -154,17 +176,24 @@ html, body {
         flex-direction: row;
         justify-content: space-between;
     }
-    .skilldescriptiontext{
-        display: inline-block;
-        width: 30vw;
-        margin-top: 1rem;
-        font-size: 1.8vh;
-        
-    }
+    .descriptiontext{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
 
+        width: 30vw;
+        margin: 1rem 0.5rem 1rem 0.5rem;
+        font-size: 1.8vh;
+        line-height: 3vh;
+    }
+    .projectimagecontainer{
+        margin-left: 1vw;
+        width: 18vw;
+    }
     .projectimage{
-        width: 10rem;
-        height: 10rem;
+        width: 18vw;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
     }
     .skillgraphic{
         width: 4rem;
@@ -172,6 +201,9 @@ html, body {
 }
 
 @media (orientation: portrait) {
+    .contact{
+        margin-top: 2rem;
+    }
     .left{
         background-color: white;
         z-index: 999;
@@ -224,11 +256,15 @@ html, body {
         height: 6rem;
     }
     .titletext{
-        font-size: 1.75vh;
+        font-size: 2.5vh;
         margin-top: 5vh;
+        margin-bottom: 1vh;
     }
     .victorcontainer{
-        height: 20vh !important;
+        width: 50vw;
+        margin-top: 2rem;
+
+        display: inline-block;
         flex-direction: column;
         background-color: aqua;
         border-radius: 0.5rem;
@@ -242,7 +278,7 @@ html, body {
         font-size: 1.5rem;
         color: #fff;
         padding-left: 0.75rem;
-        background: linear-gradient(90deg, rgb(73, 153, 218) 20%, rgb(255, 255, 255) 100%)
+        background: linear-gradient(90deg, rgb(73, 153, 218) 50%, rgb(255, 255, 255) 100%)
     }
     .ct1{
         color: black;
@@ -250,7 +286,7 @@ html, body {
         padding-left: 0rem !important;
     }
     .description{
-        height: 18vh;
+        display: inline-block;
         margin-top: 1rem;
         font-size: 1.5vh;
     }
@@ -263,34 +299,38 @@ html, body {
         padding-bottom: 1rem;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
         margin-top: 2vh;
-    }
-    
+        margin-bottom: 3vh;
+    }    
     .skilldescription{
         height: 25vh !important;
     }
     .skillsgraphics{
         width: 50vw;
-        
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-evenly;
-        gap: 1.75vw;
+        gap: 5vw;
         padding-top: 0.85vh;
+        margin-top: 1rem;
     }
+    
     .skilldescriptioncontainer{
         display: inline-block;
     }
-    .skilldescriptiontext{
+    .descriptiontext{
         display: inline-block;
         width: 50vw;
         font-size: 0.85rem;
         margin-top: 1rem;
         padding-left: 0.15rem;
+        line-height: 2vh;
     }
     .projectimage{
-        width: 2rem;
-        height: 2rem;
+        width: 50vw;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
     }
     .skillgraphic{
         width: 1.5rem;
