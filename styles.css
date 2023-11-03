@@ -116,15 +116,7 @@ button img {
         margin-top: 3rem;
         
     }
-    .header{
-        width: 75vw;
-        display: flex;
-        flex-direction: row;
-        height: 5hv !important;
-        justify-content: center;
-        padding-top: 0.5rem;
-        font-size: 1.1rem;
-    }
+    
     .languagecontainer{
         width: 20vw;
         height: 50vh;
@@ -247,6 +239,7 @@ button img {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
     }
     .hello{
         width: 90%;
@@ -288,11 +281,14 @@ button img {
         justify-content: center;
     }
     .languagecontainer{
-        width: 50vw;
+        width: 30vw;
         height: 10vh;
-        background-color: red;
+
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        padding-bottom: 1rem;
     }
     .picturecontainer{
         justify-content: flex-end;
