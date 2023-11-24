@@ -22,7 +22,7 @@ html, body {
     justify-content: space-between;
 }
 .right{
-    background-color: gainsboro;
+    background-color: #fff;
     width: 80%;
     height: 100vh;
 
@@ -121,10 +121,14 @@ button img {
         
     }
     .header{
+        width: 10vw;
         padding-top: 2vh;
         margin-top: 0vh;
         font-size: 1rem;
-        justify-content: center;
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-evenly;
     }
     .languagecontainer{
         width: 20vw;
@@ -232,6 +236,12 @@ button img {
     }
     .skillgraphic{
         width: 4rem;
+    }
+    .link{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
     }
 }
 
